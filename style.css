@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+:root{
+    --cor-primaria:#F25157;
+    --cor-secundaria:#40BFC1;
+    
+    --fonte-primaria: "Lilita One", sans-serif;
+}
+
+
+
+body{
+    background-color: beige;
+}
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.wave-header{
+  min-height: 100vh;
+  width: 100%;
+  background: linear-gradient(90deg,#F25157, #F38A61);
+  position: relative;
+  height: max-content;
+}
+
+svg{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.interface{
+    background: linear-gradient(90deg,#F25157, #F38A61);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    height: 75px;
+}
+
+
+
+
+nav a:hover {
+    color: burlywood; /* Muda a cor ao passar o mouse, opcional */
+  }
+nav {
+  display: flex; /* Faz os itens ficarem lado a lado */
+ 
+  
+  padding: 20px; /* Espaçamento em torno do menu */
+  text-align: center;
+}
+
+  nav a {
+    margin-right: 100px; /* Espaçamento entre os itens do menu */
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: white; 
+    font-size: 30px; 
+    font-family:var(--fonte-primaria);
+    
+}
+.imagem_logo{
+  margin-left: 70px;
+}
+.apresentacao{
+  padding: 5% 15%;
+  display: flex;
+  align-items:end;
+  justify-content: space-between;
+
+}
+
+.apresentacao_conteudo{
+  width: 615px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.apresentacao_conteudo_titulo{
+  font-family: var(--fonte-primaria);
+  font-size: 80px;
+  font-weight: 40px;
+  text-indent: -110px;
+  letter-spacing: 4px;
+}
+
+.apresentacao_conteudo_texto{
+  font-family: var(--fonte-primaria);
+  font-size: 1.5rem;
+  text-indent: -100px;
+}
+
+
+.apresentacao_links{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    justify-content: space-between;
+    
+   
+}
+
+
+.apresentacao_links_navegacao{
+  
+  gap: 100px;
+  width: 381px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 60px;
+  font-size: 1.5rem;
+  padding: 21.5px ;
+  color: black;
+  border: 2px solid var(--cor-primaria);
+  font-family: var(--fonte-primaria);
+  font-weight: 600;
+  background-color: var(--cor-primaria);
+  transform: translate(-100px, 15px); 
+ 
+}
+.apresentacao_links_navegacao2{
+
+  gap: 100px;
+  width: 381px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 60px;
+  font-size: 1.5rem;
+  padding: 21.5px 0;
+  color: black;
+  border: 2px solid var(--cor-secundaria);
+  font-family: var(--fonte-primaria);
+  font-weight: 600;
+  background-color: var(--cor-secundaria);
+  transform: translate(-60px, 15px);
+
+}
+
+
+
+
+
+
+
+
